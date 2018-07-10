@@ -488,6 +488,16 @@ h5{
     text-align: center;
 }
 
+a{
+    font-family: "canada-type-gibson", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #4A4A4A;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+}
+
 p{
     font-family: "mr-eaves-modern", sans-serif;
     text-align: left;
@@ -568,12 +578,12 @@ mark{
 }
 
 .portraitContainer{
-    
+
     justify-content: center;
 }
 
 .portrait{
-    
+
     background-size: cover;
     width: 100%;
     height: auto;
@@ -701,7 +711,7 @@ progress::-webkit-progress-bar {
         width: 150px;
         height: 150px;
     }
-    
+
 
 
 }
@@ -717,12 +727,15 @@ progress::-webkit-progress-bar {
     h5{
         text-align: left;
     }
+    a{
+        position: relative;
+    }
 
 
     .nav-link{
         padding: 5px;
     }
-    
+
     .portrait{
         width: 200px;
         height: auto;
@@ -737,8 +750,8 @@ progress::-webkit-progress-bar {
         background-size: cover;
 
     }
-    
-    
+
+
 }
 
 

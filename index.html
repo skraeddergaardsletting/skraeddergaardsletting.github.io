@@ -21,6 +21,8 @@
         <link href="https://fonts.googleapis.com/css?family=Montez|Nunito:300" rel="stylesheet">
 
         <link rel="stylesheet" href="https://use.typekit.net/odl6tit.css">
+        
+        <title>Skræddergaard Sletting</title>
 
         <!-- preset page, only needed for demo purposes -->
         <!--        <link rel="stylesheet" href="preset.css">-->
@@ -78,7 +80,7 @@
                             memory_tile_ids = [];
                             // Check to see if the whole board is cleared
                             if(tiles_flipped == memory_array.length){
-                                alert("Board cleared... generating new board"+counter);
+                                alert("Godt klaret!\nDu brugte "+counter+" træk.\n\nPrøv igen :)");
                                 document.getElementById('memory_board').innerHTML = "";
                                 newBoard();
                             }
@@ -161,20 +163,23 @@
             <div class="container">
                 <div class="row" >
 
-                    <div class="col-sm-3">
-                        <h5>Bryllupdsdagen</h5>
+                    <div class="col-sm-2">
+                        <a href="index.html">Forside</a>
                     </div>
                     <div class="col-sm-2">
-                        <h5>Praktisk information</h5>
+                        <a href="dagen">Bryllupdsdagen</a>
                     </div>
                     <div class="col-sm-2">
-                        <h5>Gæster</h5>
+                        <a href="information.html">Praktisk information</a>
+                    </div>
+                    <div class="col-sm-2">
+                        <a href="gaester.html">Gæster</a>
                     </div>
                     <div class="col-sm-2">
                         <a href="oensker.html">Ønsker</a>
                     </div>
-                    <div class="col-sm-3">
-                        <h5>Bryllupstraditioner</h5>
+                    <div class="col-sm-2">
+                        <a href="traditioner">Bryllupstraditioner</a>
                     </div>
 
                 </div>
