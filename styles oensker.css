@@ -554,7 +554,7 @@ mark{
 .jumbo-3{
     background: url(assets/Bottom.png);
     background-size: cover;
-    background-position: center;
+    background-position: top center;
     height: 500px;
 
 }
