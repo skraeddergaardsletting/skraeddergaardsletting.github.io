@@ -12,7 +12,7 @@
         var client = new Dropbox.Client({ key: 'wnljv0m8sr2cnwu' });
  
         function doHelloWorld() {
-            client.writeFile('hello.txt', 'Hello, World!', function (error) {
+            client.writeFile('/hello.txt', 'Hello, World!', function (error) {
                 if (error) {
                     alert('Error1: ' + error);
                 } else {
