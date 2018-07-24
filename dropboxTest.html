@@ -14,7 +14,7 @@
         function doHelloWorld() {
             client.writeFile('hello.txt', 'Hello, World!', function (error) {
                 if (error) {
-                    alert('Error: ' + error);
+                    alert('Error1: ' + error);
                 } else {
                     alert('File written successfully!');
                 }
@@ -24,7 +24,7 @@
         // Try to complete OAuth flow.
         client.authenticate({ interactive: false }, function (error, client) {
             if (error) {
-                alert('Error: ' + error);
+                alert('Error2: ' + error);
             }
         });
  
@@ -35,7 +35,7 @@
         document.getElementById('writeButton').onclick = function () {
             client.authenticate(function (error, client) {
                 if (error) {
-                    alert('Error: ' + error);
+                    alert('Error3: ' + error);
                 } else {
                     doHelloWorld();
                 }
