@@ -91,17 +91,17 @@
                             memory_tile_ids = [];
                             // Check to see if the whole board is cleared
                             if(tiles_flipped == memory_array.length){
-                                var dimensionValue = 'Highscore';
-                                ga('set', 'dimension1', counter);
                                 
-                                var dimensionValue = 'Highscore';
-                                ga('set', 'dimension1', 'counter');
                                 
-                                var dimensionValue = 'Highscore';
-                                ga('set', 'dimension1': 'counter');
+
+                                ga('send', 'pageview', {
+                                    'dimension1':  'counter'
+                                });
                                 
-                                var dimensionValue = 'Highscore';
-                                ga('set', 'dimension1': counter);
+                                ga('send', 'pageview', {
+                                    'dimension1':  counter
+                                });
+
 
                                 alert("Godt klaret!\nDu brugte "+counter+" træk.\n\nPrøv igen :)");
                                 document.getElementById('memory_board').innerHTML = "";
